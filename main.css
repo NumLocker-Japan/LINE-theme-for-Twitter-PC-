@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+.DMActivity-body.js-ariaBody.DMConversation-container{
+    background-color : rgb(122,146,190);
+}
+
+.DMActivity-header{
+    background-color : #283045 !important;
+}
+
+.DMConversation-composer.u-bgUserColorLightest{
+    background-color : #283045 !important;
+    border-top-color : transparent !important;
+}
+
+.DirectMessage-text{
+    background-color : #ffffff !important;
+}
+
+.DirectMessage-text p{
+    color : #000000 !important;
+}
+
+.DirectMessage-text a:link , .DirectMessage-text a:visited {
+    color :  #446EA0 !important;
+}
+
+.DirectMessage--sent .DirectMessage-text{
+        background-color : #37c927 !important;
+}
+
+.RichEditor.RichEditor--emojiPicker.is-fakeFocus , #tweet-box-dm-conversation{
+    background-color : #ffffff !important;
+}
+
+#tweet-box-dm-conversation div{
+    color : #000000 !important;
+}
+
+.DMUpdateName-name.u-textTruncate{
+        color : #fff !important;
+}
+
+.DMActivity-header{
+    border-bottom-color : transparent !important;
+}
