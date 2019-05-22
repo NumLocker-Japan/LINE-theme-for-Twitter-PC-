@@ -1,7 +1,5 @@
-@charset "UTF-8";
-
 .DMActivity-body.js-ariaBody.DMConversation-container{
-    background-color : rgb(122,146,190) !important;
+    background-color : rgb(122,146,190);
 }
 
 .DMActivity-header{
@@ -43,4 +41,20 @@
 
 .DMActivity-header{
     border-bottom-color : transparent !important;
+}
+
+.Icon.Icon--checkLight::before{
+    display : none !important;
+}
+
+.DMReadReceipt-check.is-seen.is-seenAnimated .Icon.Icon--checkLight::after{
+    content : "既読";
+    position : absolute;
+    right : 0px;
+    bottom : -5px;
+    color : white !important;
+}
+
+.DMDivider{
+    display : none;
 }
